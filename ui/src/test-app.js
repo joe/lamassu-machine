@@ -175,7 +175,7 @@ function setupFakes () {
   $('.crypto-address').html(formatAddress(address))
   $('.crypto-address-no-br').html(formatAddressNoBreakLines(address))
   $('.js-i18n-fixed-fee').html('Transaction Fee: <span class="integer">1</span><span>.</span><span class="decimal">00</span> EUR')
-  $('.insert_bills_state .bottom-bar .current-crypto').text('Lamassu Cryptomat')
+  $('.insert_bills_state .bottom-bar .current-crypto').text('CGift CTM')
   $('#js-i18n-high-bill-header').text('We\'re a little low on crypto.')
   $('#js-i18n-highest-bill').html(`Please insert <span class="integer">10</span> EUR or less.`)
   $('.js-i18n-did-send-coins').html('Have you sent the BTC yet?')

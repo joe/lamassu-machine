@@ -769,7 +769,7 @@ function setScreen (newScreen, oldScreen) {
   if (newScreen === oldScreen) return
 
   if (newScreen === 'insert_bills') {
-    $('.js-processing-bill').html(locale.translate('Lamassu Cryptomat').fetch())
+    $('.js-processing-bill').html(locale.translate('CGift CTM').fetch())
     $('.bill img').css({'-webkit-transform': 'none', top: 0, left: 0})
   }
 
@@ -1171,7 +1171,7 @@ function setCredit (fiat, crypto, lastBill, cryptoCode) {
 
   var inserted = lastBill
     ? locale.translate('You inserted a %s bill').fetch(formatFiat(lastBill))
-    : locale.translate('Lamassu Cryptomat').fetch()
+    : locale.translate('CGift CTM').fetch()
 
   $('.js-processing-bill').html(inserted)
 
